@@ -6,25 +6,28 @@ struct node
 
     {
   int key;
-
+    
   node* parent;
-
+    
   char color;
-
+    
   node* left;
-
+    
   node* right;
+    
 };
 
 class RBtree
-
+    
     {
+    
  public:
+    
   node* root;
-
+    
   node *q, *p;
 
-  RBtree()
+  RBеree()
 
   {
     q = nullptr;
